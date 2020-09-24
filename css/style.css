@@ -4,7 +4,19 @@
 }
 
 /* utilities */
+ul li a {
+  text-decoration: none;
+  color: black;
+}
 
+.lista_inlineBlock li{
+  display: inline-block;
+  padding: 5px;
+}
+
+.link {
+  padding: 15px;
+}
 /* tipografia */
 
 
@@ -14,14 +26,13 @@ header .container_small {
   font-size: 10px;
   position: relative;
 }
-header .container_small nav ul li {
+
+/* header .container_small nav ul li {
   display: inline-block;
   padding: 5px;
-}
+} */
 
 header .container_small nav ul li a {
-  text-decoration: none;
-  color: black;
   text-transform: uppercase;
 }
 
@@ -33,12 +44,50 @@ header .container_small .col-lg-2 img {
 }
 
 
+/* MAIN */
+
+/* sezione slogan */
+main .slogan {
+  background-image: url("../img/hero-bg.jpg");
+}
+main .slogan .container{
+  height: 550px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+main .slogan .container .frase {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  right: 30%;
+}
+
+/* sezione Helbiz prodotti */
+main .Helbiz_prodotti .E-Helbiz {
+  background-color: #fafafa;
+  text-align: center;
+  margin-top: 50px;
+}
+
+main .Helbiz_prodotti .E-Helbiz h2 {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+main .Helbiz_prodotti .E-Helbiz img {
+  height: 350px;
+}
+
 /* RESPONSIVE */
 /* SX display */
 @media screen and (max-width: 767px) {
   header {
     text-align: center;
   }
+
+
 }
 
 /* MD display */
