@@ -4,6 +4,10 @@
 }
 
 /* utilities */
+section:not(.slogan) {
+  margin-top: 50px;
+}
+
 ul li a {
   text-decoration: none;
   color: black;
@@ -24,6 +28,13 @@ ul li a {
 
 /* tipografia */
 
+.text_center {
+  text-align: center;
+}
+
+.text_white {
+  color: white;
+}
 
 /* HEADER */
 header .container_small {
@@ -54,11 +65,10 @@ header .container_small .col-lg-2 img {
 /* sezione slogan */
 main .slogan {
   background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
 }
 main .slogan .container{
   height: 550px;
-  color: white;
-  text-align: center;
   position: relative;
 }
 
@@ -70,10 +80,8 @@ main .slogan .container .frase {
 }
 
 /* sezione Helbiz prodotti */
-main .Helbiz_prodotti .E-Helbiz {
+main .Helbiz_prodotti .E-Helbiz .box {
   background-color: #fafafa;
-  text-align: center;
-  margin-top: 50px;
 }
 
 main .Helbiz_prodotti .E-Helbiz h2 {
@@ -84,6 +92,58 @@ main .Helbiz_prodotti .E-Helbiz h2 {
 main .Helbiz_prodotti .E-Helbiz img {
   height: 350px;
 }
+
+
+/* sezione: cubi */
+main .cubi .cubo_up {
+  margin-bottom: 15px;
+
+}
+
+main .cubi .cubo_up .box{
+  height: 420px;
+  background-image: url("../img/scooter-bg.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+
+main .cubi .cubo_up .testo {
+  width: 400px;
+  padding-left: 90px;
+  padding-right: 90px;
+  position: absolute;
+  top: 30%;
+  right: 100px;
+  background-color: green;
+  /* margin-top: 150px; */
+}
+
+main .cubi .cubo_sxdx .box {
+  height: 350px;
+  position: relative;
+  margin-top: 15px;
+}
+
+main .cubi .cubo_sxdx .box img {
+  width: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+}
+
+main .cubi .cubo_sxdx .box .titolo {
+  padding-top: 20px;
+}
+
+main .cubi .cubo_sxdx:last-child .box {
+  background-image: url("../img/cities.jpg");
+  background-size: cover;
+}
+
+
+
+
 
 /* RESPONSIVE */
 /* SX display */
