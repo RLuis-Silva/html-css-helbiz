@@ -1,0 +1,49 @@
+/* general */
+.container_small {
+  width: 1000px;
+}
+
+/* utilities */
+
+/* tipografia */
+
+
+/* HEADER */
+header .container_small {
+  line-height: 50px;
+  font-size: 10px;
+  position: relative;
+}
+header .container_small nav ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+header .container_small nav ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+header .container_small .col-lg-2 img {
+  width: 80px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
+
+
+/* RESPONSIVE */
+/* SX display */
+@media screen and (max-width: 767px) {
+  header {
+    text-align: center;
+  }
+}
+
+/* MD display */
+@media screen and (min-width: 768px) {
+  header {
+    text-align: center;
+  }
+}
