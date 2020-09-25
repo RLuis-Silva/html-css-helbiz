@@ -85,7 +85,8 @@ main .slogan .container .frase {
 
 /* sezione Helbiz prodotti */
 main .Helbiz_prodotti .E-Helbiz .box {
-  background-color: #fafafa;
+  background-color: grey;
+  /* #fafafa */
 }
 
 main .Helbiz_prodotti .E-Helbiz h2 {
@@ -156,7 +157,9 @@ main .cubi .cubo_sxdx:last-child .box {
     text-align: center;
   }
 
-
+  main .Helbiz_prodotti .container .E-Helbiz:last-child {
+    margin-top: 20px;
+  }
 }
 
 /* MD display */
