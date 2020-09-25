@@ -3,6 +3,10 @@
   width: 1000px;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 /* utilities */
 section:not(.slogan) {
   margin-top: 50px;
