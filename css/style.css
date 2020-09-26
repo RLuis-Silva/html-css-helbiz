@@ -12,6 +12,7 @@ section:not(.slogan) {
   margin-top: 50px;
 }
 
+
 ul li a {
   text-decoration: none;
   color: black;
@@ -156,7 +157,38 @@ main .cubi .cubo_sxdx .box img {
   right: 10%;
 }
 
+/* sezione: social */
+main .social {
+  height: 400px;
+  margin-top: 30px;
+  background-image: url(../img/social-banner.jpg);
+  background-size: cover;
+}
 
+main .social .container {
+  position: relative;
+}
+
+main .social  .container .family{
+  height: 200px;
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  left: 30%;
+  top: 100px;
+}
+
+main .social .container .family h2 {
+  margin-top: 40px;
+}
+
+main .social .container .family ul li a i {
+  font-size: 30px;
+}
+
+main .social .container .family ul {
+  margin-top: 10px;
+}
 
 
 /* RESPONSIVE */
@@ -178,9 +210,7 @@ main .cubi .cubo_sxdx .box img {
 
   /* sezione: Cubi, cubo up "Smart mobility" */
   main .cubi .cubo_up .testo {
-    position: absolute;
-    left: 5%;
-    right: 5%;
+    left: 0;
   }
 
   /* sezione: Cubi, cubo di sx "Get the App" */
@@ -191,7 +221,15 @@ main .cubi .cubo_sxdx .box img {
     left: 4%;
   }
 
-
+  /* sezione: social */
+  main .social  .container .family{
+    /* height: 200px; */
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+  }
 }
 
 /* MD display */
