@@ -200,6 +200,10 @@ footer {
   color: white;
 }
 
+footer h3 {
+  text-transform: uppercase;
+}
+
 footer ul li {
   padding-bottom: 12px;
   list-style: none;
@@ -217,9 +221,18 @@ footer .container_small .colonne h3 {
   margin-bottom: 20px;
 }
 
+footer .colonne {
+  margin-bottom: 50px;
+}
 
+footer .container_small .social i {
+  font-size: 20px;
+}
 
-
+footer a {
+  text-decoration: none;
+  color: white;
+}
 
 
 
