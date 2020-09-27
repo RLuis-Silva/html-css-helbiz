@@ -242,8 +242,15 @@ footer a {
   color: white;
 }
 
+footer .banner {
+  margin-top: 50px;
+}
 
-
+footer .banner .lista_inlineBlock li a img {
+  width: 110px;
+  border: solid 1px white;
+  border-radius: 10%;
+}
 
 
 
@@ -302,6 +309,37 @@ footer a {
     left: 0;
     right: 0;
     top: 100px;
+  }
+
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+  }
+
+  footer .container_small .colonne  {
+    padding-top: 80px;
+  }
+
+  footer .container_small .colonne .col_logo img {
+    margin-bottom: 20px;
+    width: 200px;
+  }
+
+  footer .container_small .colonne .box h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  footer .container_small .social .col-lista-social {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  footer .container_small .banner .lista_inlineBlock {
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
 
