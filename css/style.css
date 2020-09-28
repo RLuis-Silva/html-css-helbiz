@@ -85,8 +85,18 @@ main .slogan .container{
 main .slogan .container .frase {
   position: absolute;
   top: 30%;
-  left: 30%;
-  right: 30%;
+  /* left: 30%; */
+  right: 20%;
+}
+
+main .slogan .frase h1 {
+  font-size: 50px;
+}
+
+main .slogan .frase p {
+font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 /* sezione Helbiz prodotti */
@@ -124,8 +134,12 @@ main .cubi .cubo_up .testo {
   top: 30%;
   right: 20%;
   left: 50%;
-  background-color: green;
   /* margin-top: 150px; */
+}
+
+main .cubi .cubo_up .testo a {
+  color: white;
+  text-decoration: none;
 }
 
 main .cubi .cubo_sxdx {
@@ -280,8 +294,8 @@ footer .banner .lista_inlineBlock li a img {
 
   main .slogan .container .frase {
     position: absolute;
-    right: 10%;
-    left: 10%;
+    right: 0;
+    /* left: 10%; */
   }
 
   main .Helbiz_prodotti .container .E-Helbiz:last-child {
@@ -347,5 +361,11 @@ footer .banner .lista_inlineBlock li a img {
 @media screen and (min-width: 768px) {
   header {
     text-align: center;
+  }
+
+  main .slogan .container .frase {
+    position: absolute;
+    right: 0;
+    /* left: 10%; */
   }
 }
